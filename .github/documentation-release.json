@@ -1,0 +1,25 @@
+{
+  "repository": "alexandroit/stackline-debug",
+  "packages": [
+    {
+      "name": "@stackline/debug",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "debug",
+        "nodejs",
+        "browser",
+        "log",
+        "debugger"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/debug/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/debug/-/debug-1.0.0.tgz",
+      "baselineIntegrity": "sha512-n9ksJj8vTvFKsJgXlGbmQE3xEHvOfW9SgxpJed3g+FYl8VtF8NFRsvFoCaSQaMAnCR/IzebknbqFkj8WBj732Q==",
+      "expectedSha512": "183939eedcf088665a577423a2b2ef74bf191b3b61758f78f49d9081783d560b35febe947a3416343934a29d279deb6827c62f823a3f4b8780d711fd158b4644",
+      "tag": "docs-stackline-debug-v1.0.1"
+    }
+  ]
+}
