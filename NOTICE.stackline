@@ -1,0 +1,5 @@
+Independent maintenance fork of debug 4.4.3.
+Original copyright, author attribution, and license files are retained unchanged.
+Upstream: https://github.com/debug-js/debug
+Base commit: 6b2c5fbdb7d414483d9e306ef234acb4cd7ea67c
+Stackline is not affiliated with or endorsed by upstream maintainers.

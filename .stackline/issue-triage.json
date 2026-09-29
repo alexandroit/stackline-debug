@@ -1,0 +1,366 @@
+{
+  "checkedAt": "2026-09-29T00:21:48.384941+00:00",
+  "upstreamRepository": "debug-js/debug",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 1019,
+      "title": "Add documentation around using ESM imports",
+      "url": "https://github.com/debug-js/debug/issues/1019"
+    },
+    {
+      "number": 940,
+      "title": "[Question] How do I enable millisecond diff?",
+      "url": "https://github.com/debug-js/debug/issues/940"
+    },
+    {
+      "number": 989,
+      "title": "env variable DEBUG is not parsed correctly",
+      "url": "https://github.com/debug-js/debug/issues/989"
+    },
+    {
+      "number": 425,
+      "title": "`debug.enable()` flushes enabled namespaces",
+      "url": "https://github.com/debug-js/debug/issues/425"
+    },
+    {
+      "number": 948,
+      "title": "Specify namespace with url in ESM",
+      "url": "https://github.com/debug-js/debug/issues/948"
+    },
+    {
+      "number": 986,
+      "title": "Ability to control other options programatically",
+      "url": "https://github.com/debug-js/debug/issues/986"
+    },
+    {
+      "number": 1010,
+      "title": "propose for npm trusted publishing with OIDC",
+      "url": "https://github.com/debug-js/debug/issues/1010"
+    },
+    {
+      "number": 1008,
+      "title": "Debug as JSON",
+      "url": "https://github.com/debug-js/debug/issues/1008"
+    },
+    {
+      "number": 999,
+      "title": "`.extend` is undefined in cloudflare workers",
+      "url": "https://github.com/debug-js/debug/issues/999"
+    },
+    {
+      "number": 786,
+      "title": "Use ESModules instead of module.exports",
+      "url": "https://github.com/debug-js/debug/issues/786"
+    },
+    {
+      "number": 1002,
+      "title": "console.group and groupCollapsed",
+      "url": "https://github.com/debug-js/debug/issues/1002"
+    },
+    {
+      "number": 981,
+      "title": "Problem when using a library that uses `debug` in Deno",
+      "url": "https://github.com/debug-js/debug/issues/981"
+    },
+    {
+      "number": 685,
+      "title": "Does debug support React Native remote debugging. ",
+      "url": "https://github.com/debug-js/debug/issues/685"
+    },
+    {
+      "number": 758,
+      "title": "Add unique ID without impacting wildcard functionality",
+      "url": "https://github.com/debug-js/debug/issues/758"
+    },
+    {
+      "number": 952,
+      "title": "Debug mixed with console.log",
+      "url": "https://github.com/debug-js/debug/issues/952"
+    },
+    {
+      "number": 962,
+      "title": "update colors for darkmode in devtools",
+      "url": "https://github.com/debug-js/debug/issues/962"
+    },
+    {
+      "number": 976,
+      "title": "Way to disable printf-style feature temporarily",
+      "url": "https://github.com/debug-js/debug/issues/976"
+    },
+    {
+      "number": 958,
+      "title": "Display full error object all the time regardless of argument position",
+      "url": "https://github.com/debug-js/debug/issues/958"
+    },
+    {
+      "number": 974,
+      "title": "Why cache namespaces?",
+      "url": "https://github.com/debug-js/debug/issues/974"
+    },
+    {
+      "number": 959,
+      "title": "DEBUG_HIDE_DATE doesn't exist / do anything",
+      "url": "https://github.com/debug-js/debug/issues/959"
+    },
+    {
+      "number": 556,
+      "title": "[RFC] Pluggable log handler",
+      "url": "https://github.com/debug-js/debug/issues/556"
+    },
+    {
+      "number": 967,
+      "title": "Unused format specifiers are not escaped.",
+      "url": "https://github.com/debug-js/debug/issues/967"
+    },
+    {
+      "number": 964,
+      "title": "Allow choice between STDERR and STDOUT",
+      "url": "https://github.com/debug-js/debug/issues/964"
+    },
+    {
+      "number": 954,
+      "title": "Avoid throwing errors",
+      "url": "https://github.com/debug-js/debug/issues/954"
+    },
+    {
+      "number": 656,
+      "title": "5.x Roadmap",
+      "url": "https://github.com/debug-js/debug/issues/656"
+    },
+    {
+      "number": 945,
+      "title": "Redirect logs to file doesnt capture time",
+      "url": "https://github.com/debug-js/debug/issues/945"
+    },
+    {
+      "number": 947,
+      "title": "Specify peer dependency version",
+      "url": "https://github.com/debug-js/debug/issues/947"
+    },
+    {
+      "number": 946,
+      "title": "Different formatting for namespaces on TTY and files",
+      "url": "https://github.com/debug-js/debug/issues/946"
+    },
+    {
+      "number": 582,
+      "title": "Customizing output format",
+      "url": "https://github.com/debug-js/debug/issues/582"
+    },
+    {
+      "number": 920,
+      "title": "Support for console.table like output",
+      "url": "https://github.com/debug-js/debug/issues/920"
+    },
+    {
+      "number": 932,
+      "title": "Wildcard question: allow one excluding rest",
+      "url": "https://github.com/debug-js/debug/issues/932"
+    },
+    {
+      "number": 916,
+      "title": "Doc suggestion: Using `debug` in WebWorkers / SharedWorkers",
+      "url": "https://github.com/debug-js/debug/issues/916"
+    },
+    {
+      "number": 922,
+      "title": "Allow forcing the use of colors",
+      "url": "https://github.com/debug-js/debug/issues/922"
+    },
+    {
+      "number": 918,
+      "title": "namespaces returned by debug.disable are not always accepted by debug.enable",
+      "url": "https://github.com/debug-js/debug/issues/918"
+    },
+    {
+      "number": 914,
+      "title": "Reroute logging of an npm package that uses debug to a different logging function",
+      "url": "https://github.com/debug-js/debug/issues/914"
+    },
+    {
+      "number": 913,
+      "title": "Float's are truncated",
+      "url": "https://github.com/debug-js/debug/issues/913"
+    },
+    {
+      "number": 901,
+      "title": "Does 'debug' cache the DEBUG environment variable somewhere? Getting no output after changing namespace and DEBUG env var.",
+      "url": "https://github.com/debug-js/debug/issues/901"
+    },
+    {
+      "number": 912,
+      "title": "require('supports-color') will always fail, supports-color version 9+ for node",
+      "url": "https://github.com/debug-js/debug/issues/912"
+    },
+    {
+      "number": 893,
+      "title": "Possibility to read in config at debug instance creation instead of at first (version) require/ import?",
+      "url": "https://github.com/debug-js/debug/issues/893"
+    },
+    {
+      "number": 483,
+      "title": "debug with chrome dev tool  issue",
+      "url": "https://github.com/debug-js/debug/issues/483"
+    },
+    {
+      "number": 649,
+      "title": "Clean up README",
+      "url": "https://github.com/debug-js/debug/issues/649"
+    },
+    {
+      "number": 687,
+      "title": "when %j exists in a formatted object, it pulls in the timestamp/delta",
+      "url": "https://github.com/debug-js/debug/issues/687"
+    },
+    {
+      "number": 688,
+      "title": "Thoughts on locking version of \"ms\" dependency?",
+      "url": "https://github.com/debug-js/debug/issues/688"
+    },
+    {
+      "number": 751,
+      "title": "MS Edge, almost working colors",
+      "url": "https://github.com/debug-js/debug/issues/751"
+    },
+    {
+      "number": 766,
+      "title": "% symbol in object interpreted as formatter",
+      "url": "https://github.com/debug-js/debug/issues/766"
+    },
+    {
+      "number": 873,
+      "title": "Can't set global `log()` function overriding namespaces ones",
+      "url": "https://github.com/debug-js/debug/issues/873"
+    },
+    {
+      "number": 886,
+      "title": "Override `log()` functions with global ones",
+      "url": "https://github.com/debug-js/debug/issues/886"
+    },
+    {
+      "number": 641,
+      "title": "Visual Studio Code express app",
+      "url": "https://github.com/debug-js/debug/issues/641"
+    },
+    {
+      "number": 845,
+      "title": "Undocumented ```delete process.env.DEBUG``` when variable is empty",
+      "url": "https://github.com/debug-js/debug/issues/845"
+    },
+    {
+      "number": 744,
+      "title": "Using debug with `esm` renders wrong formatted output for %o / %O",
+      "url": "https://github.com/debug-js/debug/issues/744"
+    },
+    {
+      "number": 698,
+      "title": "How can I write to file without colors and to console with colors?",
+      "url": "https://github.com/debug-js/debug/issues/698"
+    },
+    {
+      "number": 644,
+      "title": "[RFC] Compatibility layer",
+      "url": "https://github.com/debug-js/debug/issues/644"
+    },
+    {
+      "number": 696,
+      "title": "Not printing any debug statements",
+      "url": "https://github.com/debug-js/debug/issues/696"
+    },
+    {
+      "number": 743,
+      "title": "Cannot turn on debug within a sourceless page",
+      "url": "https://github.com/debug-js/debug/issues/743"
+    },
+    {
+      "number": 742,
+      "title": "colors not detected in AudioWorkletProcessor",
+      "url": "https://github.com/debug-js/debug/issues/742"
+    },
+    {
+      "number": 702,
+      "title": "WebStorm console, Windows Command Prompt do not support 256 colors",
+      "url": "https://github.com/debug-js/debug/issues/702"
+    },
+    {
+      "number": 669,
+      "title": "Add Typescript types",
+      "url": "https://github.com/debug-js/debug/issues/669"
+    },
+    {
+      "number": 711,
+      "title": "Extending error object in express, but Debug does only show the stack trace",
+      "url": "https://github.com/debug-js/debug/issues/711"
+    },
+    {
+      "number": 642,
+      "title": "Object colors with a plurality of parameters",
+      "url": "https://github.com/debug-js/debug/issues/642"
+    },
+    {
+      "number": 636,
+      "title": "Wildcard in name doesn't auto enable on web",
+      "url": "https://github.com/debug-js/debug/issues/636"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 1049,
+      "title": "blanck",
+      "url": "https://github.com/debug-js/debug/issues/1049"
+    },
+    {
+      "number": 1033,
+      "title": "Security: Regex injection via DEBUG environment variable",
+      "url": "https://github.com/debug-js/debug/issues/1033"
+    },
+    {
+      "number": 1005,
+      "title": "(RESOLVED) Version 4.4.2 published to npm is compromised",
+      "url": "https://github.com/debug-js/debug/issues/1005"
+    },
+    {
+      "number": 927,
+      "title": "Links to example on readme returning 404 pages",
+      "url": "https://github.com/debug-js/debug/issues/927"
+    },
+    {
+      "number": 343,
+      "title": "Prepend function name and line number to debug message",
+      "url": "https://github.com/debug-js/debug/issues/343"
+    },
+    {
+      "number": 1024,
+      "title": "Saas PNMEDIA",
+      "url": "https://github.com/debug-js/debug/issues/1024"
+    },
+    {
+      "number": 1023,
+      "title": "mosi72482@gmail.com",
+      "url": "https://github.com/debug-js/debug/issues/1023"
+    },
+    {
+      "number": 1004,
+      "title": "The repository URL in package.json is broken",
+      "url": "https://github.com/debug-js/debug/issues/1004"
+    },
+    {
+      "number": 1017,
+      "title": "ISKANDER",
+      "url": "https://github.com/debug-js/debug/issues/1017"
+    },
+    {
+      "number": 1016,
+      "title": "Use `ms-faster`",
+      "url": "https://github.com/debug-js/debug/issues/1016"
+    },
+    {
+      "number": 1015,
+      "title": "Publish debug@4.4.3 to avoid cached versions",
+      "url": "https://github.com/debug-js/debug/issues/1015"
+    }
+  ],
+  "decision": "Maintenance adoption with preserved runtime payload. No runtime defect correction is claimed. Reports remain visible for subsequent targeted reproduction.",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}
