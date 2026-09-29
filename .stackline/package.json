@@ -1,13 +1,17 @@
 {
   "name": "@stackline/debug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexandroit/stackline-debug.git"
   },
   "description": "Lightweight debugging utility for Node.js and the browser",
   "keywords": [
+    "stackline",
+    "npm-package",
     "debug",
+    "nodejs",
+    "browser",
     "log",
     "debugger"
   ],
@@ -61,7 +65,7 @@
       "import/extensions": "off"
     }
   },
-  "homepage": "https://github.com/alexandroit/stackline-debug#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/debug/",
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-debug/issues"
   },

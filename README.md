@@ -1,6 +1,47 @@
-# debug
-[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)
-[![OpenCollective](https://opencollective.com/debug/sponsors/badge.svg)](#sponsors)
+# @stackline/debug
+
+> Lightweight debugging utility for Node.js and the browser.
+
+[![npm version](https://img.shields.io/npm/v/@stackline/debug.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/debug)
+[![license](https://img.shields.io/npm/l/@stackline/debug.svg?style=flat-square)](https://github.com/alexandroit/stackline-debug)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-debug-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-debug)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/debug/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/debug/)** | **[npm](https://www.npmjs.com/package/@stackline/debug)** | **[Issues](https://github.com/alexandroit/stackline-debug/issues)** | **[Repository](https://github.com/alexandroit/stackline-debug)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/debug` is the Stackline-maintained distribution of `debug@4.4.3`. It is an independent continuation of [debug](https://github.com/debug-js/debug); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/debug@1.0.1` |
+| API target | `debug@4.4.3` |
+| Supported Node.js | `>=6.0` |
+| License | `MIT` |
+| Main entry | `./src/index.js` |
+| Runtime dependencies | `ms` |
+
+## Installation
+
+```bash
+npm install @stackline/debug
+```
+
+Preserve existing imports and plugin resolution with an npm alias:
+
+```bash
+npm install debug@npm:@stackline/debug
+```
+
+## Usage and API reference
 
 <img width="647" src="https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png">
 
@@ -10,7 +51,7 @@ technique. Works in Node.js and web browsers.
 ## Installation
 
 ```bash
-$ npm install debug
+$ npm install @stackline/debug
 ```
 
 ## Usage
@@ -20,7 +61,7 @@ $ npm install debug
 Example [_app.js_](./examples/node/app.js):
 
 ```js
-var debug = require('debug')('http')
+var debug = require('@stackline/debug')('http')
   , http = require('http')
   , name = 'My App';
 
@@ -43,8 +84,8 @@ require('./worker');
 Example [_worker.js_](./examples/node/worker.js):
 
 ```js
-var a = require('debug')('worker:a')
-  , b = require('debug')('worker:b');
+var a = require('@stackline/debug')('worker:a')
+  , b = require('@stackline/debug')('worker:b');
 
 function work() {
   a('doing lots of uninteresting work');
@@ -200,7 +241,7 @@ For example, if you wanted to add support for rendering a Buffer as hex with
 `%h`, you could do something like:
 
 ```js
-const createDebug = require('debug')
+const createDebug = require('@stackline/debug')
 createDebug.formatters.h = (v) => {
   return v.toString('hex')
 }
@@ -252,7 +293,7 @@ In Chromium-based web browsers (e.g. Brave, Chrome, and Electron), the JavaScrip
 Example [_stdout.js_](./examples/node/stdout.js):
 
 ```js
-var debug = require('debug');
+var debug = require('@stackline/debug');
 var error = debug('app:error');
 
 // by default stderr is used
@@ -274,7 +315,7 @@ log('still goes to stdout, but via console.info now');
 ## Extend
 You can simply extend debugger 
 ```js
-const log = require('debug')('auth');
+const log = require('@stackline/debug')('auth');
 
 //creates new debug instance with extended namespace
 const logSign = log.extend('sign');
@@ -290,7 +331,7 @@ logLogin('hello'); //auth:login hello
 You can also enable debug dynamically by calling the `enable()` method :
 
 ```js
-let debug = require('debug');
+let debug = require('@stackline/debug');
 
 console.log(1, debug.enabled('test'));
 
@@ -316,7 +357,7 @@ Usage :
 Note that calling `enable()` completely overrides previously set DEBUG variable : 
 
 ```
-$ DEBUG=foo node -e 'var dbg = require("debug"); dbg.enable("bar"); console.log(dbg.enabled("foo"))'
+$ DEBUG=foo node -e 'var dbg = require("@stackline/debug"); dbg.enable("bar"); console.log(dbg.enabled("foo"))'
 => false
 ```
 
@@ -329,7 +370,7 @@ temporarily without knowing what was enabled to begin with.
 For example:
 
 ```js
-let debug = require('debug');
+let debug = require('@stackline/debug');
 debug.enable('foo:*,-foo:bar');
 let namespaces = debug.disable();
 debug.enable(namespaces);
@@ -344,7 +385,7 @@ After you've created a debug instance, you can determine whether or not it is
 enabled by checking the `enabled` property:
 
 ```javascript
-const debug = require('debug')('http');
+const debug = require('@stackline/debug')('http');
 
 if (debug.enabled) {
   // do stuff...
@@ -479,3 +520,26 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Credits and original authors
+
+- Original project: [debug](https://github.com/debug-js/debug).
+- Josh Junon.
+- TJ Holowaychuk.
+- Nathan Rajlich.
+- Andrew Rhyne.
+- Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>.
+- Copyright (c) 2018-2021 Josh Junon.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
