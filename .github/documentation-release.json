@@ -4,7 +4,7 @@
     {
       "name": "@stackline/debug",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -18,8 +18,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/debug/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/debug/-/debug-1.0.0.tgz",
       "baselineIntegrity": "sha512-n9ksJj8vTvFKsJgXlGbmQE3xEHvOfW9SgxpJed3g+FYl8VtF8NFRsvFoCaSQaMAnCR/IzebknbqFkj8WBj732Q==",
-      "expectedSha512": "183939eedcf088665a577423a2b2ef74bf191b3b61758f78f49d9081783d560b35febe947a3416343934a29d279deb6827c62f823a3f4b8780d711fd158b4644",
-      "tag": "docs-stackline-debug-v1.0.1"
+      "expectedSha512": "98bf0a7054df76f7e2467b06fd6020554a7f29f7020000df0266265af2bd7a5cea0a5da73f6e99e5f6e7d0a239e700eeb67704298fa8b791396fe90bd628c7c1",
+      "tag": "docs-stackline-debug-v1.0.2"
     }
   ]
 }
