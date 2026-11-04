@@ -9,6 +9,7 @@
   "tests": [
     "npm ci --ignore-scripts",
     "npm run test:node",
-    "npm run test:browser"
+    "npm run test:browser",
+    "npm run lint"
   ]
 }

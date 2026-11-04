@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": "xo",
+  "plugins": [
+    "import"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+  "rules": {
+    "import/extensions": "off",
+    "semi-spacing": "warn"
+  }
+}

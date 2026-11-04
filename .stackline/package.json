@@ -1,6 +1,6 @@
 {
   "name": "@stackline/debug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexandroit/stackline-debug.git"
@@ -28,27 +28,27 @@
   ],
   "license": "MIT",
   "scripts": {
-    "lint": "xo",
+    "lint": "eslint src test.js test.node.js karma.conf.js",
     "test": "npm run test:node && npm run test:browser && npm run lint",
     "test:node": "mocha test.js test.node.js",
-    "test:browser": "karma start --single-run",
-    "test:coverage": "cat ./coverage/lcov.info | coveralls"
+    "test:browser": "karma start --single-run"
   },
   "dependencies": {
     "ms": "^2.1.3"
   },
   "devDependencies": {
     "brfs": "^2.0.1",
-    "browserify": "^16.2.3",
-    "coveralls": "^3.0.2",
-    "karma": "^3.1.4",
-    "karma-browserify": "^6.0.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-mocha": "^1.3.0",
-    "mocha": "^5.2.0",
-    "mocha-lcov-reporter": "^1.2.0",
-    "sinon": "^14.0.0",
-    "xo": "^0.23.0"
+    "browserify": "17.0.1",
+    "karma": "6.4.4",
+    "karma-browserify": "8.1.0",
+    "karma-chrome-launcher": "3.2.0",
+    "karma-mocha": "2.0.1",
+    "mocha": "12.0.3",
+    "sinon": "22.1.0",
+    "eslint": "8.57.1",
+    "eslint-config-xo": "0.25.0",
+    "eslint-plugin-import": "2.32.0",
+    "watchify": "4.0.0"
   },
   "peerDependenciesMeta": {
     "supports-color": {
@@ -59,11 +59,6 @@
   "browser": "./src/browser.js",
   "engines": {
     "node": ">=6.0"
-  },
-  "xo": {
-    "rules": {
-      "import/extensions": "off"
-    }
   },
   "homepage": "https://alexandro.net/docs/vanilla/debug/",
   "bugs": {
