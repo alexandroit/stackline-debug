@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/debug/)** | **[npm](https://www.npmjs.com/package/@stackline/debug)** | **[Issues](https://github.com/alexandroit/stackline-debug/issues)** | **[Repository](https://github.com/alexandroit/stackline-debug)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.4`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/debug@1.0.2` |
+| Package | `@stackline/debug@1.0.4` |
 | API target | `debug@4.4.3` |
 | Supported Node.js | `>=6.0` |
 | License | `MIT` |
@@ -543,3 +543,7 @@ Original copyright, license notices and contributor acknowledgements remain part
 - [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
 
 Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
+
+## Upstream documentation
+
+The original upstream README is preserved in [README.upstream.md](README.upstream.md).
